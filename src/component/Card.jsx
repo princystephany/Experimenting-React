@@ -1,6 +1,6 @@
 import React from 'react'
 
- function Mobiles() {
+ function Card() {
   
     return (
      <>
@@ -12,8 +12,9 @@ import React from 'react'
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
-<Mobiles></Mobiles>
+<Card/>
       </>  
     );
   }
-   export default Mobiles;
+   export default Card;
+n
