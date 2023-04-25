@@ -1,4 +1,7 @@
-function Sample() {
+import React from 'react'
+
+
+export function Sample() {
   
     return (
      <>
@@ -9,4 +12,15 @@ function Sample() {
     );
   }
   
-  export default Sample;
+  // export default Sample;
+  
+  export function Sample2() {
+  
+    return (
+     <>
+  <h1>
+    First jsx component
+  </h1>
+      </>  
+    );
+  }

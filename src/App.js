@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Sample from './component/Sample.jsx'
+import {Sample,Sample2} from './component/Sample.jsx'
+import Mobiles from './component/Mobile.jsx'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
 <h1>
   First React Application
 <Sample/>
-
+<Sample2/>
+<Mobiles/>
 </h1>
 <p>{name}</p>
    </div>  
