@@ -12,6 +12,12 @@ import {useState} from "react";
     const addPlayers = () => {
         setData(items);
     };
+
+    const addOnePlayer = () => {
+        const bowler = ["natrajan"];
+        setData([...data, bowler]);
+    };
+
     return (
      <>
     <h2>User Data array</h2>
@@ -20,6 +26,8 @@ import {useState} from "react";
         return <li>{items}</li>
     })}
    <button  onClick={addPlayers}>Add Players
+   </button>
+   <button  onClick={addOnePlayer}>Add One more Players
    </button>
 
       </>  
