@@ -2,18 +2,40 @@
 
 import './App.css';
 
-import {Sample,Sample2} from './component/Sample.jsx'
+import {useState} from "react";
 
-import Card from './component/Card.jsx'
+// import {Sample,Sample2} from './component/Sample.jsx'
 
-import image from './images/Nokia.jpg'
+// import Card from './component/Card.jsx'
+
+// import image from './images/Nokia.jpg'
  
 function App() {
 
-  let name='Princy';
+  //let name='Princy';
+ const [display,setDisplay]= useState(1234)
+
+ function incrementDisplay(){
+  setDisplay(display+1);
+ }
+ function decrementDisplay(){
+  setDisplay(display-1);
+ }
 
   return (
-   <div className='App'>
+ <>
+ <h3>{display}</h3>
+ <br></br>
+ <button  onClick={incrementDisplay}>Increase</button>
+ <button  onClick={decrementDisplay}>Decrease</button>
+
+ </>
+  );
+}
+export default App;
+ 
+
+/*<div className='App'>
 <h1>
   First React Application
 <Sample/>
@@ -26,7 +48,4 @@ function App() {
 
  </h1>
 <p>{name}</p>
-   </div>  
-  );
-}
-export default App;
+   </div> */
