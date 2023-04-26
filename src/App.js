@@ -2,33 +2,39 @@
 
 import './App.css';
 
-import {useState} from "react";
+// import {useState} from "react";
 
 // import {Sample,Sample2} from './component/Sample.jsx'
 
 // import Card from './component/Card.jsx'
 
 // import image from './images/Nokia.jpg'
+
+import Arrays from './component/Arrays.jsx'
+
  
 function App() {
 
   //let name='Princy';
- const [display,setDisplay]= useState(1234)
 
- function incrementDisplay(){
-  setDisplay(display+1);
- }
- function decrementDisplay(){
-  setDisplay(display-1);
- }
+//  const [display,setDisplay]= useState(1234)
+
+//  function incrementDisplay(){
+//   setDisplay(display+1);
+//  }
+//  function decrementDisplay(){
+//   setDisplay(display-1);
+//  }
 
   return (
  <>
- <h3>{display}</h3>
+ {/* <h3>{display}</h3>
  <br></br>
  <button  onClick={incrementDisplay}>Increase</button>
- <button  onClick={decrementDisplay}>Decrease</button>
+ <button  onClick={decrementDisplay}>Decrease</button> */}
+ <Arrays/>
 
+ 
  </>
   );
 }
