@@ -10,7 +10,10 @@ import './App.css';
 
 // import image from './images/Nokia.jpg'
 
-import Arrays from './component/Arrays.jsx'
+// import Arrays from './component/Arrays.jsx'
+
+
+import ArrayUseState from './component/ArrayUseState.jsx'
 
  
 function App() {
@@ -32,7 +35,9 @@ function App() {
  <br></br>
  <button  onClick={incrementDisplay}>Increase</button>
  <button  onClick={decrementDisplay}>Decrease</button> */}
- <Arrays/>
+ {/* <Arrays/> */}
+ <ArrayUseState/>
+
 
  
  </>
